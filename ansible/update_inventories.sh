@@ -35,7 +35,7 @@ update_inventory_file() {
     echo "" >> "$inventory_file"
     echo "[servers:vars]" >> "$inventory_file"
     echo "ansible_user=ubuntu" >> "$inventory_file"
-    echo "ansible_ssh_private_key_file=/Users/shubham/Documents/work/TrainWithShubham/terra-ansible-multi-env/terraform/tws-terra-key" >> "$inventory_file"
+    echo "ansible_ssh_private_key_file=saitama@BOOKLET/Terraform_Ansible_Env/terraform/tws-terra-key" >> "$inventory_file"
     echo "ansible_python_interpreter=/usr/bin/python3" >> "$inventory_file"
 
     echo "Updated $env inventory: $inventory_file"
